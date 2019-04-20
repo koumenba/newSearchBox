@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+  <style>
+    body {
+      margin:0;
+      padding:0;
+      background:#cb7575;
+    }
+    .search {
 
-You can use the [editor on GitHub](https://github.com/koumenba/newSearchBox/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+      position: absolute;
+      top: 43%;
+      left: 35%;
+      justify-content: center;
+      background:#ef9e9f ;
+      text-align: center;
+      width: 90px;
+      height: 90px;
+      border-radius: 45px;
+      -webkit-box-shadow: 5px 5px 20px #f1bbba ,-5px -5px 20px #f1bbba;
+      -moz-box-shadow: 5px 5px 20px #f1bbba ,-5px -5px 20px #f1bbba;
+      box-shadow: 5px 5px 20px #f1bbba ,-5px -5px 20px #f1bbba ;
+    }
+    .search input {
+      display:none;
+    }
+    .search img {
+      width: 70px;
+      height:70px;
+      padding:10px;
+    }
+    .search:hover {
+      width: 500px;
+      height:90px;
+      border-radius:40px;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .search:hover img {
+      display: inline-block;
+    }
+    .search:hover input {
+      display: inline-block;
+      background:#ef9e9f ;
+      outline: none;
+      font-size: 20px;
+      color: white;
+      width:400px ;
+      height:89px;
+      padding:0;
+      border:0;
+      border-radius: 40px;
+    }
+  </style>
+</head>
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="search">
+  <a href="http://baidu.com"><img src="img/search.png"></a>
+  <input type="text" placeholder="">
+</div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/koumenba/newSearchBox/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
