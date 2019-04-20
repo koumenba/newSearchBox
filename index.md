@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>login in</title>
+ <html>
+ <title>login in</title>
   <style>
     body{
       margin: 0;
